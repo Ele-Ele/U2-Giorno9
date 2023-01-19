@@ -1,0 +1,31 @@
+@import "variabili";
+@import "reset";
+@import "colors";
+@import "navbar";
+@import "sidebar";
+@import "footer";
+@import "img";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $secondary-color;
+  height: 100%;
+  @media screen and(min-width:1200px) {
+    justify-content: space-around;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    background-color: white;
+    color: $text-color;
+
+    font: {
+      family: $font;
+      size: 30px;
+      weight: 700;
+    }
+  }
+}

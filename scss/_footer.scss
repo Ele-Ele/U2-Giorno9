@@ -1,0 +1,21 @@
+footer {
+  font: {
+    family: $font;
+    size: 15px;
+    weight: 700;
+  }
+  padding: 10px 0;
+  text-align: center;
+  background-color: $primary-color;
+  background: linear-gradient(11deg, #faf4f0 -25%, #a06645 80%);
+  background: -webkit-linear-gradient(11deg, #faf4f0 -25%, #a06645 80%);
+  background: -moz-linear-gradient(11deg, #faf4f0 -25%, #a06645 80%);
+  color: white;
+  p {
+    i {
+      &:hover {
+        font-size: 30px;
+      }
+    }
+  }
+}

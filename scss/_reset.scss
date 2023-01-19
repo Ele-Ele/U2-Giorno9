@@ -1,0 +1,13 @@
+@mixin reset {
+  height: 100%;
+  margin: $no-margin;
+  padding: $no-padding;
+}
+html {
+  @include reset;
+}
+
+body {
+  height: 100%;
+  margin: $no-margin;
+}

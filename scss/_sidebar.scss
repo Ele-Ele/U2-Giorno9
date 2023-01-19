@@ -1,0 +1,31 @@
+aside {
+  background-color: $secondary-color;
+  display: flex;
+  width: 25%;
+  select {
+    height: 10%;
+    cursor: pointer;
+    background-color: $secondary-color;
+    border: none;
+    color: $text-color;
+    @media screen and(min-width:1200px) {
+      width: 100%;
+    }
+    font: {
+      family: $font;
+      size: 20px;
+      weight: 700;
+    }
+    .option {
+      color: $text-color;
+      font: {
+        family: $font;
+        size: 20px;
+        weight: 700;
+      }
+    }
+  }
+  @media screen and(min-width:1200px) {
+    width: 10%;
+  }
+}
